@@ -119,7 +119,7 @@ async function fetchAndDisplayCourses() {
 
 async function fetchAssessments(courseId) {
   const response = await fetch(
-    `https://canvas-server-production.up.railway.app/api/courses/${courseId}/assignments`
+    `https://canvas-server-production-aac5.up.railway.app/api/courses/${courseId}/assignments`
   );
   if (!response.ok) {
     throw new Error(`Failed to fetch assessments for course ${courseId}`);
