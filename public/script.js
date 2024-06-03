@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 async function fetchAndDisplayCourses() {
   try {
     const response = await fetch(
-      "https://canvas-server-production.up.railway.app/api/courses"
+      "https://canvas-server-production-aac5.up.railway.app/api/courses"
     );
     if (!response.ok) {
       throw new Error("Failed to fetch courses");
